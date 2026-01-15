@@ -1,0 +1,7 @@
+# @package eval.tofu.metrics.forget_success
+defaults:
+  - .@pre_compute.forget_Q_A_Prob: forget_Q_A_Prob
+  - .@pre_compute.forget_Truth_Ratio: forget_Truth_Ratio
+  - .@pre_compute.forget_Q_A_ROUGE: forget_Q_A_ROUGE
+
+handler: forget_success

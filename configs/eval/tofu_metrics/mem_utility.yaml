@@ -1,0 +1,6 @@
+# @package eval.tofu.metrics.mem_utility
+defaults:
+  - .@pre_compute.memorization: memorization
+  - .@pre_compute.utility: utility
+
+handler: hm_aggregate

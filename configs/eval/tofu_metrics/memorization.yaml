@@ -1,0 +1,8 @@
+# @package eval.tofu.metrics.memorization
+defaults:
+  - .@pre_compute.exact_memorization: exact_memorization
+  - .@pre_compute.extraction_strength: extraction_strength
+  - .@pre_compute.forget_Q_A_PARA_Prob: forget_Q_A_PARA_Prob
+  - .@pre_compute.forget_Truth_Ratio: forget_Truth_Ratio
+
+handler: hm_aggregate_inverted

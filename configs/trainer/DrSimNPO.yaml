@@ -1,0 +1,10 @@
+defaults:
+  - SimNPO
+
+handler: DrSimNPO
+method_args:
+  forget_dro: true
+  sigma_forget: 1.0
+  retain_dro: false
+  sigma_retain: 1.0
+  log_ori_loss: true
