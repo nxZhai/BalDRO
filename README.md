@@ -16,8 +16,8 @@ BalDRO formulates unlearning as a min–sup process, where the inner process ide
 
 ## 🔥 News
 
-- **[2026.01.15]** We release the paper and the code of BalDRO.
-- **[2026.01.13]** Our paper is accepted by WWW2026.
+- **[2026.01.15]** We release the code of BalDRO.
+- **[2026.01.13]** Our paper is accepted by WWW2026 (web4good track).
 
 ## ⚡ Setup
 
