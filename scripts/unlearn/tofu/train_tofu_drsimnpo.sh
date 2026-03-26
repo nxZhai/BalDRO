@@ -38,7 +38,7 @@ for split in "${splits[@]}"; do
                             grad_acc=$(echo $bz | cut -d' ' -f2)
 
                             # learning_rate, batchsize, grad_acc, epochs
-                            SUFFIX="lr${lr}_b${bsz}_ga${grad_acc}_b${beta}_d${delta}_g${gamma}_e${epochs}_reDRO${retain_dro}"
+                            SUFFIX="lr${lr}_b${bsz}_ga${grad_acc}_b${beta}_d${delta}_g${gamma}_e${epochs}"
                             TASK_NAME="unlearn_tofu_${MODEL}_${forget_split}_${TRAINER}_${SUFFIX}"
                             OUTPUT_DIR="./saves/unlearn/tofu/${forget_split}/${MODEL}/${TRAINER}/${SUFFIX}"
 

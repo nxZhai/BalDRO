@@ -8,7 +8,7 @@ REPORTTO="wandb"
 WANDB_PROJECT="BalDRO"
 
 MODEL="Llama-2-7b-hf"
-TRAINER="DrNPO"
+TRAINER="DrSatImp"
 splits=(
     "News"
     "Books"
