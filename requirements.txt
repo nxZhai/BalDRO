@@ -13,3 +13,4 @@ tensorboard==2.18.0
 scikit-learn==1.5.2
 deepspeed==0.15.4
 lm_eval==0.4.8
+peft==0.17.1
