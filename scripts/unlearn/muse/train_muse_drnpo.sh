@@ -35,7 +35,7 @@ for split in "${splits[@]}"; do
                     # learning_rate, batchsize, grad_acc, epochs
                     SUFFIX="lr${lr}_b${bsz}_ga${grad_acc}_e${epochs}_reDRO${retain_dro}_day${DATE}_time${TIME}"
                     TASK_NAME="unlearn_muse_${split}_${MODEL}_${TRAINER}_${SUFFIX}"
-                    OUTPUT_DIR="./saves/nicy/unlearn/muse/${split}/${MODEL}/${TRAINER}/${SUFFIX}"
+                    OUTPUT_DIR="./saves/unlearn/muse/${split}/${MODEL}/${TRAINER}/${SUFFIX}"
 
                     # TRAIN COMMAND =================================
                     export WANDB_PROJECT=${WANDB_PROJECT}
