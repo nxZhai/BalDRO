@@ -62,7 +62,7 @@ for split in "${splits[@]}"; do
                         trainer.method_args.beta_dv_forget=${beta_dv_forget} \
                         trainer.method_args.beta_dv_retain=1.0 \
                         trainer.method_args.forget_dro=True \
-                        trainer.method_args.retain_dro=${retain_dro} \
+                        trainer.method_args.retain_dro=False \
                         trainer.method_args.log_ori_loss=True
                 done
             done
