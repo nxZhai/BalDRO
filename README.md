@@ -35,7 +35,7 @@ pip install flash-attn --no-build-isolation
 
 ### Dataset Preparation
 
-TOFU and MUSE benchmarks are usedfor evaluation.
+TOFU and MUSE benchmarks are used for evaluation.
 
 - [TOFU](https://huggingface.co/datasets/locuslab/TOFU)
 - [MUSE](https://huggingface.co/datasets/muse-bench/MUSE-News)
