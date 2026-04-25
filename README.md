@@ -142,10 +142,11 @@ This work builds upon [Open-Unlearning](https://github.com/locuslab/open-unlearn
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{shao2026baldro,
-  title={BalDRO: A Distributionally Robust Optimization based Framework for Large Language Model Unlearning},
+@inproceedings{shao2026baldro,
+  title={Baldro: A distributionally robust optimization based framework for large language model unlearning},
   author={Shao, Pengyang and Zhai, Naixin and Chen, Lei and Yang, Yonghui and Zhu, Fengbin and Yang, Xun and Wang, Meng},
-  journal={arXiv preprint arXiv:2601.09172},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  pages={8874--8884},
   year={2026}
 }
 ```
