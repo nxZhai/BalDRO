@@ -3,6 +3,13 @@
 
 </h1>
 
+<div align="center">
+  <a href='https://arxiv.org/pdf/2601.09172'><img src='https://img.shields.io/badge/arXiv-2601.09172-red?logo=arXiv'></a>  &nbsp;
+  <a href="https://github.com/nxZhai/BalDRO"><img src="https://img.shields.io/badge/GitHub-BalDRO-94c320?logo=github"></a> &nbsp; 
+  <a href="https://www2026.thewebconf.org/calls/web4good.html"><img src="https://img.shields.io/badge/WWW26-Web4good-9E95B7"></a> &nbsp;
+  <br>
+</div>
+
 BalDRO formulates unlearning as a min–sup process, where the inner process identifies a worst-case data distribution that adaptively emphasizes hard-to-unlearn samples, while the outer process updates model parameters based on the worst-case data distribution. We instantiate this formulation through two efficient variants: BalDRO-G, a discrete GroupDRO-based approximation that focuses on high-loss subsets, and BalDRO-DV, a continuous Donsker–Varadhan dual method that enables smooth, adaptive weighting within standard LLM training pipelines.
 
 ![BalDRO Overview](assets/baldro_overview.png)
@@ -129,6 +136,20 @@ You can add or remove evaluation metrics in `configs/eval/muse.yaml` and `config
 ## 🤝 Acknowledgements
 
 This work builds upon [Open-Unlearning](https://github.com/locuslab/open-unlearning), with appreciation for their contributions of the research community in this area.
+
+## 🔗 Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@inproceedings{shao2026baldro,
+  title={Baldro: A distributionally robust optimization based framework for large language model unlearning},
+  author={Shao, Pengyang and Zhai, Naixin and Chen, Lei and Yang, Yonghui and Zhu, Fengbin and Yang, Xun and Wang, Meng},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  pages={8874--8884},
+  year={2026}
+}
+```
 
 ## 📝 License
 
