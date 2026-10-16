@@ -1,0 +1,8 @@
+defaults:
+  - PDU
+
+handler: Reweight
+method_args:
+  k: 1 # top-k
+  sigma: 0.1 # sharpness control
+  beta: 0.1 # sharpnres control

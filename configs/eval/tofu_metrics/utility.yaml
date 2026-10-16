@@ -1,0 +1,6 @@
+# @package eval.tofu.metrics.utility
+defaults:
+  - .@pre_compute.model_utility: model_utility
+  - .@pre_compute.forget_Q_A_gibberish: forget_Q_A_gibberish
+
+handler: hm_aggregate

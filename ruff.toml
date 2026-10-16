@@ -1,0 +1,9 @@
+line-length = 88
+exclude = [".git", ".venv", "__pycache__"]
+
+[lint]
+select = ["E", "F", "I"]
+ignore = ["E501", "E402", "E722", "F401", "F541", "F841"]
+
+[lint.isort]
+combine-as-imports = true
